@@ -42,7 +42,7 @@ quantity INT
 );
 GO
 
---- Merge --- /*1.	Створити додаткову таблицю tmp_Details та наповнити її даними*/
+--- Merge --- /*1.	РЎС‚РІРѕСЂРёС‚Рё РґРѕРґР°С‚РєРѕРІСѓ С‚Р°Р±Р»РёС†СЋ tmp_Details С‚Р° РЅР°РїРѕРІРЅРёС‚Рё С—С— РґР°РЅРёРјРё*/
 CREATE TABLE tmp_details(
 detailid INT PRIMARY KEY,
 name VARCHAR(20),
